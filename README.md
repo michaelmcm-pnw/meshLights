@@ -1,28 +1,23 @@
 # meshLights
 
-meshLights are wifi-connected ESP32 nodes with flexible LED effects. Supports up to 6 nodes, with automatic leader election and synchronization of LED animation. Leverages FastLED and PainlessMesh projects, and adds leader election, display/effect logic, additional messaging functionality and error checking.
+meshLights are social, wifi-connected lights with flexible LED effects. They were designed for loosely connected, small groups of people or vehicles to visually identify each other. Supports up to 6 nodes, with automatic mesh organization and synchronization of LED animation. Leverages FastLED and PainlessMesh projects, and adds leader election, display/effect logic, additional messaging functionality and error checking.
 
-## Getting Started
+## Hardware & Materials
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This software has been tested on ESP32 dev boards, specificially [this one](https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z?ref_=ast_sto_dp).  There are only a few hardware requirements, but because my implementation was designed to be mobile and robust, I've included optional build materials below too.
 
-### Prerequisites
+### Required components
+* ESP32
+* Addressable LED (eg. WS2811, WS2812) strip
 
-What things you need to install the software and how to install them
+Optional hardware components:
+* [ESP32 DevKitC Wi-Fi and BLE LED Controller](https://www.evilgeniuslabs.org/esp32-devkitc-wi-fi-and-ble-led-controller) - daughterboard which mounts cleanly with the ESP32.  Makes it much easier to attach LED strand(s), and to use a barrel power connector.
 
-```
-Give examples
-```
-
-### Installing
+### Software
 
 A step by step series of examples that tell you how to get a development env running
 
 Say what the step will be
-
-```
-Give the example
-```
 
 ## Built With
 
