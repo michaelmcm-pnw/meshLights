@@ -4,20 +4,17 @@ meshLights are social, wifi-connected lights with flexible LED effects. They wer
 
 ## Hardware & Materials
 
-This software has been tested on ESP32 dev boards, specificially [this one](https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z?ref_=ast_sto_dp).  There are only a few hardware requirements, but because my implementation was designed to be mobile and robust, I've included optional build materials below too.
+This software has been tested on the Hiletgo ESP-WROOM-32 ESP32 dev boards.  There are only a few hardware requirements, but because my implementation was designed to be mobile and robust, I've included optional build materials below too.
 
 ### Required components
-* ESP32
-* Addressable LED (eg. WS2811, WS2812) strip
+* [**ESP32 2.4GHz Dual-Mode WiFi + Bluetooth Dual Cores Microcontroller**](https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z?ref_=ast_sto_dp) - tested with the Hiletgo ESP-WROOM-32 ESP32 dev board. [Hiletgo details](http://hiletgo.com/ProductDetail/1906566.html)
+* [**Addressable LED strip**](https://www.amazon.com/gp/product/B01MQ08JH6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) (eg. WS2811, WS2812) - tested with WS8212B strands with 30, 60 & 120 LEDs.
 
 Optional hardware components:
-* [ESP32 DevKitC Wi-Fi and BLE LED Controller](https://www.evilgeniuslabs.org/esp32-devkitc-wi-fi-and-ble-led-controller) - daughterboard which mounts cleanly with the ESP32.  Makes it much easier to attach LED strand(s), and to use a barrel power connector.
+* [**ESP32 DevKitC Wi-Fi and BLE LED Controller**](https://www.evilgeniuslabs.org/esp32-devkitc-wi-fi-and-ble-led-controller) - daughterboard which mounts cleanly with the ESP32.  Makes it much easier to attach LED strand(s), and to use a barrel power connector.
 
 ### Software
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+* To build / upload the code to your ESP32, use [Microsoft's VS Code](https://code.visualstudio.com/) with the [PlatformIO extension](https://platformio.org/) or Arduino IDE.  Both have been tested, and work.
 
 ## Built With
 
