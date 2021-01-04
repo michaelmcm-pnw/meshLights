@@ -29,4 +29,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 * thanks to FastLED for the pre-built animations!
-* Lots of inspiration and a bit of code from LED_Synch_Mesh_Send by Carl F Sutter (2017)
+* Lots of inspiration and a bit of code from [LED Bar Mesh](https://github.com/carl-tt/led-bar-mesh) by Carl F Sutter (2017)
