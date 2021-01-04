@@ -1,6 +1,6 @@
 # meshLights
 
-meshLights are social, wifi-connected lights with flexible LED effects. They were designed for loosely connected, small groups of people or vehicles to visually identify each other. Supports up to 6 nodes, with automatic mesh organization and synchronization of LED animation. Leverages FastLED and PainlessMesh projects, and adds leader election, display/effect logic, additional messaging functionality and error checking.
+meshLights are social, wifi-connected lights with flexible LED effects. They were designed for loosely connected, small groups of people (or vehicles) to visually identify each other. Supports up to 6 nodes, with automatic mesh organization and synchronization of LED animation. Leverages FastLED and PainlessMesh projects, and adds leader election, display/effect logic, additional messaging functionality and error checking.
 
 ## Hardware & Materials
 
